@@ -26,31 +26,31 @@
 mkdir demo
 ```
 
-1. 进入项目目录
+2. 进入项目目录
 
 ```shell
 cd demo
 ```
 
-1. 使用以下命令克隆项目至本地目录
+3. 使用以下命令克隆项目至本地目录
 
 ```shell
 git clone https://github.com/agufei/BaiduNews-React-Demo.git
 ```
 
-1. 运行npm安装依赖
+4. 运行npm安装依赖
 
 ```shell
 npm i
 ```
 
-1. 启动项目
+5. 启动项目
 
 ```shell
 npm start
 ```
 
-1. 在浏览器访问以下地址即可
+6. 在浏览器访问以下地址即可
 
 ```
 http://127.0.0.1:3000
