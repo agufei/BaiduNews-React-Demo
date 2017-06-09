@@ -37,24 +37,25 @@ export default class Img extends Component {
     };
     style = {
         width: window.innerWidth * 0.85,
-        height: window.innerWidth *
-            0.85 *
-            this.props.src.height /
-            this.props.src.width,
+        height:
+            window.innerWidth *
+                0.85 *
+                this.props.src.height /
+                this.props.src.width,
         border: "none",
         background: "url('/image/default.png') no-repeat center/85%"
     };
     styleSmall = {
         display: "inline-block",
         width: window.innerWidth * 0.28,
-        height: window.innerWidth *
-            0.85 *
-            this.props.src.height /
-            this.props.src.width,
+        height:
+            window.innerWidth *
+                0.85 *
+                this.props.src.height /
+                this.props.src.width,
         background: "url('/image/default.png') no-repeat center/100%"
     };
     render() {
-        console.log(this.props.small);
         return (
             <img
                 ref="img"

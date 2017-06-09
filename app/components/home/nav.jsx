@@ -46,7 +46,6 @@ export default class Nav extends Component {
         this.setState({ left: move });
     };
     componentWillReceiveProps(nextProps) {
-        console.log("nav:", nextProps);
         // 如果页面跳转，自动将对应页面的导航项点亮
         let aLi = this.refs.navitems.children;
         for (let i = 0; i < aLi.length; i++) {

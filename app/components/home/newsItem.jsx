@@ -19,11 +19,7 @@ class NewsItemHybrid extends Component {
     render() {
         return (
             <Link to={`/content/${this.props.nid}`} className="news-card">
-                <img
-                    small={true}
-                    className="image"
-                    src={this.props.imageurls[0].url}
-                />
+                <img className="image" src={this.props.imageurls[0].url} />
                 <div className="content">
                     <div className="title">
                         {this.props.title}
@@ -61,21 +57,9 @@ class NewsItemAllPic extends Component {
                     {this.props.title}
                 </div>
                 <div className="img-wrap">
-                    <img
-                        small={true}
-                        className="image"
-                        src={this.props.imageurls[0].url}
-                    />
-                    <img
-                        small={true}
-                        className="image"
-                        src={this.props.imageurls[1].url}
-                    />
-                    <img
-                        small={true}
-                        className="image"
-                        src={this.props.imageurls[2].url}
-                    />
+                    <img className="image" src={this.props.imageurls[0].url} />
+                    <img className="image" src={this.props.imageurls[1].url} />
+                    <img className="image" src={this.props.imageurls[2].url} />
                 </div>
                 <div className="time">{this.props.time}</div>
             </Link>
