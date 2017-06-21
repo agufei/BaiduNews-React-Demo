@@ -40,7 +40,6 @@ module.exports = {
         extensions: ['.js', 'jsx']
     },
     // 实际就是自动添加后缀，默认是当成js文件来查找路径
-    // 空字符串在此是为了resolve一些在import文件时不带文件扩展名的表达式
 
     module: {
         // babel
