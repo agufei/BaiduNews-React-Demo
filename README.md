@@ -10,9 +10,11 @@ React做的仿百度新闻手机端项目
 * 难点为调用百度新闻API需要跨域，而其并未提供CORS或JSONP能力，经过技术选型和测试，跨域问题通过http-proxy中间件实现反向代理解决
 * 通过项目，在React的语法模式、state和props的作用和用法、组件间调用传值、Router跳转管理、跨域问题解决、Webpack应用等方面有较大提高。
 
-![url](/static/image/url.png)
+![url](/static/image/www.agufei.xin.png)
 
 扫描二维码，在手机上尝试
+
+(如使用微信“扫一扫”，请点击“继续访问”)
 
 ### 主要技术栈：
 
