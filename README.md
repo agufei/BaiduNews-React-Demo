@@ -52,7 +52,7 @@ React做的仿百度新闻手机端项目
 mkdir demo
 ```
 
-1. 进入项目目录
+2. 进入项目目录
 
 ```shell
 cd demo
