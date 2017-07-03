@@ -77,9 +77,10 @@ export default class Home extends Component {
                 if (data.top) {
                     const top = data.top;
                     for (let i = 0; i < top.length; i++) {
-                        const { title, imageurls, url, ts } = top[i];
+                        const { title, nid, imageurls, url, ts } = top[i];
                         topList.push({
                             title,
+                            nid,
                             imageurls,
                             url,
                             time: ts2date(ts),
